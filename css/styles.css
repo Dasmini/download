@@ -1,0 +1,180 @@
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+#title{
+  background-color: #d6d38f;
+  color:#fff;
+}
+h1{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  line-height: 1.5;
+  size:3.5rem;
+}
+.container-fluid{
+  padding: 3% 15%;
+}
+
+/* navigation bar */
+.navbar{
+  padding: 0 0 4.3rem 0;
+}
+.navbar-brand{
+  font-family: 'Ubuntu';
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.nav-item{
+  padding: 20px;
+}
+.nav-link{
+  font-size:20px;
+}
+/* .handicraft img{
+  position: absolute;
+    z-index: 0;
+
+}                                                 code for z-index*/
+/* button */
+.download-buttons{
+  margin:64px 15px 0;
+}
+
+/* features */
+.features-color{
+  background-color: #fff;
+  position: relative;                      /*code for z-index*/
+  z-index: 1;                        /*code for z-index*/
+}
+#features{
+
+  text-align:center;
+  margin: 0 auto 0 auto;
+  padding: 100px;
+  width:80%;
+
+
+}
+#features h3{
+  font-family: 'Montserrat';
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+#features p{
+  color:#8f8f8f;
+}
+#features i{
+  font-size:60px;
+  color: #c8c36a;
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+#features i:hover{
+  color: #bab445;
+}
+.card-header{
+  background-color: #d6d38f;
+}
+/* Testimonials */
+#testimonials{
+  text-align: center;
+
+}
+.testimonial-comment{
+  color: #fff;
+  font-weight:bold;
+  font-size: 2.5rem;
+  padding:40px 0 40px 0;
+  text-align:center;
+}
+.testimonial-image{
+  border-radius: 100%;
+  width: 100px;
+}
+em{
+  color: #fff;
+  font-size: 1.5rem;
+}
+.carousel-item{
+  padding: 7% 15%;
+}
+.testimonial-press{
+  background-color: #d6d38f;
+}
+
+/* press */
+#press{
+  padding: 40px 0 50px 0;
+  text-align: center;
+}
+.press-image{
+  padding: 30px;
+  width: 250px;
+}
+
+/* Discount */
+#pricing{
+  padding:100px;
+}
+#pricing h2{
+  color: #5e5b22;
+}
+.disc-cards{
+  margin-top: 40px;
+  border-color:#cfcb7d; 
+}
+.buy-now-button{
+  width:100%;
+  background-color:#cfcb7d;
+  border:0;
+  font-weight: bold;
+}
+.buy-now-button:hover{
+  background-color: #bab445;
+}
+h2,h5{
+  font-weight: bold;
+}
+h5{
+  color: #fff;
+}
+/* cta */
+#cta{
+  background-color: #d6d38f;
+  text-align: center;
+  padding:70px;
+}
+#cta h3{
+  color: #5e5b22;
+  font-weight: bold;
+}
+/* footer */
+#footer{
+  background-color: #fff;
+  margin-top:50px;
+  text-align: center;
+}
+#footer p{
+  margin:0;
+  padding:30px;
+}
+#footer i{
+  padding:40px 15px 0 15px;
+}
+#footer i:hover{
+  color: #000;
+}
+@media (max-width:798px){
+  #title{
+    text-align: center;
+  }
+  #title img{
+    position: relative;
+    right:70px;
+  }
+
+}
+@media (max-width:1046px){
+  body{
+    overflow-x:hidden;
+}
